@@ -12,13 +12,10 @@ var config = {
     },
     module : {
         loaders : [
-            {
-                test : /\.jsx?/,
-                include : APP_DIR,
-                loader : 'babel-loader'
-            }
+            {test : /\.jsx?/, include : APP_DIR, loader : 'babel-loader'},
+            {test: /\.css$/, loader: "style-loader!css-loader"},
         ]
-    }
+    },
 };
 
 module.exports = config;
