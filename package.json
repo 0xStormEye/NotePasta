@@ -34,6 +34,7 @@
     "react-bootstrap": "^0.31.2",
     "react-codemirror": "git://github.com/skidding/react-codemirror.git#106-fix-update",
     "react-dom": "^15.6.1",
+    "reboron": "^0.4.2",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5"
   },
